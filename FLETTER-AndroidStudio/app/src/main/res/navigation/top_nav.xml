@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_nav"
+    app:startDestination="@id/topTodayFlowerFragment">
+
+    <fragment
+        android:id="@+id/topTodayFlowerFragment"
+        android:name="com.choiminseon.fletterapp.TopTodayFlowerFragment"
+        android:label="fragment_top_today_flower"
+        tools:layout="@layout/fragment_top_today_flower" />
+    <fragment
+        android:id="@+id/aiRecommendFragment"
+        android:name="com.choiminseon.fletterapp.TopPredictFragment"
+        android:label="fragment_ai_recommend"
+        tools:layout="@layout/fragment_top_predict_recommend" />
+    <fragment
+        android:id="@+id/topOrderFragment"
+        android:name="com.choiminseon.fletterapp.TopOrderFragment"
+        android:label="fragment_top_order"
+        tools:layout="@layout/fragment_top_order" />
+    <fragment
+        android:id="@+id/topInfoFragment"
+        android:name="com.choiminseon.fletterapp.TopInfoFragment"
+        android:label="fragment_top_info"
+        tools:layout="@layout/fragment_top_info" />
+</navigation>

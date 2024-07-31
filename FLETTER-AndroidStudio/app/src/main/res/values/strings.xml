@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FLETTER</string>
+
+    <string name="txt_wish_list"><u>위시리스트</u></string>
+    <string name="txt_cart"><u>장바구니</u></string>
+    <string name="txt_order_history"><u>주문 내역</u></string>
+    <string name="txt_logout"><u>로그아웃</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="navigation"><u>찾아오시는 길</u></string>
+
+
+</resources>

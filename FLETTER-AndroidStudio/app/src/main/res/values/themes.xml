@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FletterApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="Theme.FletterApp" parent="Base.Theme.FletterApp">
+        <item name="colorPrimary">@color/fletter_color</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <!-- Custom ActionBar style -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/fletter_color</item> <!-- 배경색 추가 -->
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- Custom ActionBar title text style -->
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/black</item> <!-- 원하는 색으로 변경 -->
+    </style>
+</resources>

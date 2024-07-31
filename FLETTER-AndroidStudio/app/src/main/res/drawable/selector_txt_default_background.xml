@@ -1,0 +1,6 @@
+<!-- res/drawable/pressed_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/design_default_color_background" />
+    <!-- Optional: add stroke or other attributes as needed -->
+</shape>
